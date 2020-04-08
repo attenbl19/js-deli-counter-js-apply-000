@@ -42,8 +42,9 @@ function currentLine(katzDeliLine) {
     for (let i=0; i<katzDeliLine.length; i++) {
       
       personOnLine.push(`${i+1}. ${katzDeliLine[i]}`)
+    }
       
       return `The line is currently: ${personOnLine.join(',')},`
-    }
+    
   }
 }
