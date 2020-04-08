@@ -1,12 +1,10 @@
 //function takeANumber to determine name and place in line at Katz katzDeliLine
 
-function takeANumber(katzDeliLine) {
+function takeANumber(katzDeliLine, nameNew) {
   
-     let numberTicket = 1;
-     numberTicket = +1;
+     katzDeliLine.push(nameNew)
      
-  
-  return `You are number ${katzDeliLine.length} in line.`
+  return `Welcome ${nameNew}.You are number ${katzDeliLine.length} in line.`
 }
 
 
